@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- declare document type and version(5)-->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8"> <!-- this meta element called charset tells the browser that all the text iside page is incoded with utf-8 incoding system-->
+  <title>🐝My Site</title>
+</head>
+
+<body>
+  <table cellspacing=20 border="3">
+    <tr>
+      <td><img src="Julia.jpg" alt="Julia's photo" height="150"></td>
+      <td>
+        <h1> Julia Skrebetsa</h1>
+        <p> <em> <strong>A Student, Dreamer, Programmer</strong></em> </p>
+        <p>I am a student of the <a target="_blank" href="https://www.rtu.lv">Riga Technical University</a> Riga Technical University, Riga, Latvia.</p>
+      </td>
+    </tr>
+  </table>
+  <!-- <img src="Web development/images/Julia.jpg" alt="Julia's photo"> ????????????????????????????????????????????-->
+  <!-- jpg file Julia is on the same hirotical level as index.html, that's why we can just write src="Julia.jpg" -->
+  <!-- If it wasn't on the same level,e.g. it would be in in the folder Images which would be on the same level as HTML folder-->
+  <!-- alt helps google to find out what your page or photo is about -->
+  <!-- paragraph p and emphasis em (italicized) element, <em></em> better than <i></i> -->
+  <!-- target="_blank" make the page to open in a new window -->
+  <hr size=3, color=black>
+
+  <h3><strong>Education</strong></h3>
+  <ul>
+    <!-- bullet list, also there are <ol></ol> which means oredered list 1)...2)... -->
+    <li>Riga Purvciems secondary school</li>
+    <li>RTU
+      <ul>
+        <!-- 2nd bullet list of the bullet list -->
+        <li>Bachelor of Information Technologies</li>
+        <ol>
+          <li>1st year...</li>
+          <li>2nd year...</li>
+          <li>3rd year...</li>
+        </ol>
+        <li>Master of Information Technologies</li>
+        <ol start=4>
+          <li>1st year...</li>
+          <li>2nd year...</li>
+          <li>3rd year...</li>
+        </ol>
+      </ul>
+  </ul>
+<hr size=3 color=black>
+  <h3>Work Experience</h3>
+  <table cellspacing=10>
+    <thead>
+      <!-- table header -->
+      <tr>
+        <!-- table row -->
+        <th>Dates</th><!-- table headercell element -->
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- table body -->
+      <tr>
+        <!-- table row -->
+        <td><strong>2000 - 2020</strong></td> <!-- table'scellrow-->
+        <td>Accebutter</td>
+      </tr>
+      <tr>
+        <td><strong>1920 - 2000</strong></td>
+        <td>Space ship</td>
+      </tr>
+      <tr>
+        <td><strong>1919</strong></td>
+        <td>Uni</td>
+      </tr>
+    </tbody>
+    <!--  <tfoot>  table footer
+        </tfoot> -->
+  </table>
+<hr size=3 color=black>
+  <h3>Skills</h3>
+  <table cellspacing=10>
+      <tr>
+        <td>
+        <table>
+          <tr>
+            <td>iOS Development</td>
+            <td>⭐</td>
+          </tr>
+          <tr>
+            <td>Web Development</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+        </table>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>Photos</td>
+              <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Sleeping</td>
+              <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+  </table> <!--due to such sophisticated structure HTML isn't used for table creation-->
+
+
+  <hr color=black size=3>
+  <p><a target="_blank" href="hobbies.html"><strong>My hobbies</strong></a></p>
+  <p><a target="_blank" href="contacts.html"><strong>Contact me</strong></a></p>
+
+</body>
+
+</html>
